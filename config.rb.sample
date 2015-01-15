@@ -24,10 +24,10 @@
 # after the equals sign..
 
 # Size of the CoreOS cluster created by Vagrant
-#$num_instances=1
+$num_instances=3
 
 # Official CoreOS channel from which updates should be downloaded
-#$update_channel='stable'
+$update_channel='stable'
 
 # Log the serial consoles of CoreOS VMs to log/
 # Enable by setting value to true, disable with false
@@ -49,6 +49,6 @@
 
 # Setting for IP addresses
 #$private_ip = "172.17.8.100"
-#$public_ip = false
+$public_ip = "192.168.59.50"
 #$bridge = false
 #$dhcp = false
